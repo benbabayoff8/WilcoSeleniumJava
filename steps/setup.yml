@@ -1,0 +1,32 @@
+id: setup
+learningObjectives:
+  - Initialize Environment
+hints:
+startFlow:
+  do:
+    - actionId: bot_message
+      params:
+        person: keen
+        messages:
+          - text: "You'll need a few things to setup your environment:"
+            delay: 1500
+          - text: "1. [The Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/), version 11 or higher. To install it, [follow the JDK Installation Guide.](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html)"
+            delay: 1000
+          - text: "2. A good Java editor, such as:"
+            delay: 500
+          - text: "[JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)"
+          - text: "[Eclipse IDE](https://www.eclipse.org/)"
+          - text: "[Apache NetBeans](https://netbeans.apache.org/)"
+          - text: "[Visual Studio Code](https://code.visualstudio.com/docs/languages/java)"
+            delay: 1000
+          - text: "3.[Apache Maven](https://maven.apache.org/download.cgi) for project builds and dependencies."
+          - text: "4. An up-to-date version of [Google Chrome.](https://www.google.com/chrome/downloads/)"
+          - text: "5. A corresponding version of [ChromeDriver.](https://googlechromelabs.github.io/chrome-for-testing/)"
+    - actionId: ready_message
+      params:
+        person: keen
+trigger:
+  type: user_ready_response
+  flowNode:
+    do:
+      - actionId: finish_step

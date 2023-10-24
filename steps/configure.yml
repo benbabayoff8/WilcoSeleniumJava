@@ -1,0 +1,28 @@
+id: configure
+learningObjectives:
+  - Configure your Applitools credentials
+hints:
+startFlow:
+  do:
+    - actionId: bot_message
+      params:
+        person: keen
+        messages:
+          - text: "Great! Now let's set your Applitools credentials to run your first Applitools test"
+            delay: 1500
+          - text: "To do that, set the APPLITOOLS_API_KEY environment variable with your Applitools ApiKey - https://applitools.com/tutorials/guides/getting-started/registering-an-account#retrieving-your-api-key"
+            delay: 2000
+          - text: "Make sure you are in the correct folder 'cd example-selenium-java-junit', here is how to set a temporarily environment variable"
+            delay: 2000
+          - text: "in Mac/Linux : export APPLITOOLS_API_KEY=<your_key>"
+            delay: 2000
+          - text: "in Windows: set APPLITOOLS_API_KEY=<your_key>"
+            delay: 2000
+    - actionId: ready_message
+      params:
+        person: keen
+trigger:
+  type: user_ready_response
+  flowNode:
+    do:
+      - actionId: finish_step

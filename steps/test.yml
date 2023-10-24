@@ -1,0 +1,23 @@
+id: test
+learningObjectives:
+  - Test using Applitools Java SDK
+hints:
+startFlow:
+  do:
+    - actionId: bot_message
+      params:
+        person: keen
+        messages:
+          - text: "Awesome! Now let's run your first Applitools test"
+            delay: 1500
+          - text: "To do that, run the test with the 'mvn test' command"
+            delay: 2000
+          - text: "Once the test is finished, you can see the results in the Eyes UI. Go to the [Eyes dashboard](https://eyes.applitools.com/app/test-results/) and see your results there."
+    - actionId: ready_message
+      params:
+        person: keen
+trigger:
+  type: user_ready_response
+  flowNode:
+    do:
+      - actionId: finish_step
