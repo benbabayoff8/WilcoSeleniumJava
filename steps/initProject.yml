@@ -8,13 +8,13 @@ startFlow:
       params:
         person: keen
         messages:
-          - text: "So, We want to run our first Applitools Java test. To do it we need to install"
+          - text: "So, We want to run our first Applitools Java test."
             delay: 1500
           - text: "To do that, Let's clone the demo repository and install the relevant dependencies"
             delay: 1000
           - text: "Use the git clone command to clone the tutorial repository - `git clone https://github.com/applitools/example-selenium-java-junit.git`"
             delay: 1500
-          - text: "To install the dependencies enter the folder with 'cd example-selenium-java-junit' and run the 'mvn install -DskipTests' command"
+          - text: "To install the dependencies enter the folder with `cd example-selenium-java-junit` and run the `mvn install -DskipTests` command"
     - actionId: ready_message
       params:
         person: keen

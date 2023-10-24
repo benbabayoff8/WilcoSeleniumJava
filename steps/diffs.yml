@@ -9,13 +9,13 @@ startFlow:
         person: keen
         messages:
           - text: "Congratulations! Now lets run the test a second time to detect visual differences."
-            delay: 1500
+            delay: 1000
           - text: "To do that, we will change the application (URL) under test"
-            delay: 2000
-          - text: "Go to src/test/AcmeBankTests.java test file and replace the driver navigation command (Line-X) 'driver.get(\"https://demo.applitools.com/index_v2.html\");'"
-            delay: 1500
-          - text: "Now run your test again using 'mvn test' and review the results in your [Eyes dashboard](https://eyes.applitools.com/app/test-results/)"
-            delay: 1500
+            delay: 1000
+          - text: "Go to the test file located in `src/test/java/com/applitools/example/AcmeBankTests.java` and replace the driver navigation command (Line#169) `driver.get(\"https://demo.applitools.com/index_v2.html\");`"
+            delay: 1000
+          - text: "Now run your test again using `mvn test` and review the results in your [Eyes dashboard](https://eyes.applitools.com/app/test-results/)"
+            delay: 1000
     - actionId: ready_message
       params:
         person: keen

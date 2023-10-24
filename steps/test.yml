@@ -10,7 +10,7 @@ startFlow:
         messages:
           - text: "Awesome! Now let's run your first Applitools test"
             delay: 1500
-          - text: "To do that, run the test with the 'mvn test' command"
+          - text: "In your command line, run the test with the `mvn test` command"
             delay: 2000
           - text: "Once the test is finished, you can see the results in the Eyes UI. Go to the [Eyes dashboard](https://eyes.applitools.com/app/test-results/) and see your results there."
     - actionId: ready_message

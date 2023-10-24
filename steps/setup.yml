@@ -14,12 +14,12 @@ startFlow:
             delay: 1000
           - text: "2. A good Java editor, such as:"
             delay: 500
-          - text: "[JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)"
-          - text: "[Eclipse IDE](https://www.eclipse.org/)"
-          - text: "[Apache NetBeans](https://netbeans.apache.org/)"
-          - text: "[Visual Studio Code](https://code.visualstudio.com/docs/languages/java)"
+          - text: " [JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)"
+          - text: " [Eclipse IDE](https://www.eclipse.org/)"
+          - text: " [Apache NetBeans](https://netbeans.apache.org/)"
+          - text: " [Visual Studio Code](https://code.visualstudio.com/docs/languages/java)"
             delay: 1000
-          - text: "3.[Apache Maven](https://maven.apache.org/download.cgi) for project builds and dependencies."
+          - text: "3. [Apache Maven](https://maven.apache.org/download.cgi) for project builds and dependencies."
           - text: "4. An up-to-date version of [Google Chrome.](https://www.google.com/chrome/downloads/)"
           - text: "5. A corresponding version of [ChromeDriver.](https://googlechromelabs.github.io/chrome-for-testing/)"
     - actionId: ready_message
