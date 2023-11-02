@@ -12,7 +12,7 @@ startFlow:
             delay: 1500
           - text: "- [The Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/), version 11 or higher. To install it, [follow the JDK Installation Guide.](https://docs.oracle.com/en/java/javase/19/install/overview-jdk-installation.html)"
             delay: 1000
-          - text: "2. A good Java editor, such as:"
+          - text: "- A good Java editor, such as:"
             delay: 500
           - text: " [JetBrains IntelliJ IDEA](https://www.jetbrains.com/idea/)"
           - text: " [Eclipse IDE](https://www.eclipse.org/)"
